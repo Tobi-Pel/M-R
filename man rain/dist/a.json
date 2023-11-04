@@ -1,0 +1,63 @@
+{
+    "latitude": 52.52,
+    "longitude": 13.419998,
+    "generationtime_ms": 0.13506412506103516,
+    "utc_offset_seconds": 3600,
+    "timezone": "Europe/Berlin",
+    "timezone_abbreviation": "CET",
+    "elevation": 38,
+    "daily_units": {
+      "time": "iso8601",
+      "apparent_temperature_max": "°C",
+      "rain_sum": "mm",
+      "snowfall_sum": "cm",
+      "windspeed_10m_max": "km/h"
+    },
+    "daily": {
+      "time": [
+        "2023-11-02",
+        "2023-11-03",
+        "2023-11-04",
+        "2023-11-05",
+        "2023-11-06",
+        "2023-11-07",
+        "2023-11-08"
+      ],
+      "apparent_temperature_max": [
+        11.1,
+        9.2,
+        7.7,
+        10.5,
+        9.4,
+        7.5,
+        6.9
+      ],
+      "rain_sum": [
+        3,
+        9.7,
+        0,
+        1.5,
+        0.8,
+        0.6,
+        0.3
+      ],
+      "snowfall_sum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "windspeed_10m_max": [
+        15.6,
+        16.1,
+        16.6,
+        15.1,
+        23.9,
+        16.3,
+        14.3
+      ]
+    }
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="circle"></div>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h1>M&R</h1>
+            <ul>
+                <li><a href="#" class="report">Forecast</a></li>
+                <li><a href="#" class="theme">Dark theme</a></li>
+                <li><a href="#" class="info">Information</a></li>
+            </ul>
+        </aside>
+
+        <div class="project">
+            <h2>Information about the project</h2>
+
+            <p>
+                M&R is a tutorial project written in native JS using fetch API. It allows you to find out the weather forecast for today and the next week. The design of the project was made using ChatGPT. <br> <br>
+
+                API: <a href="https://open-meteo.com/">open-meteo</a>
+            </p>
+        </div>
+
+        <main class="weather">
+            <section class="current-weather">
+                <h2>Weather today</h2>
+                <div class="weather-info">
+                    <div class="weather-icon">
+                        <img class="weather-img" src="ascets/zalupa.png" alt="Погода сегодня">
+                    </div>
+                    <div class="temperature">
+                        <p class="celcius-value">Temperature of weather : </p>
+                        <p class="rain-value">Rain : </p>
+                        <p class="wind-value">Wind speed : </p>
+                    </div>
+                </div>
+            </section>
+            <section class="weekly-forecast">
+                <h2>Weekly weather</h2>
+                <ul class="forecast-list">
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+
+                    <li>
+                        <img class="weather-img" src="ascets/zalupa.png">
+                        <p class="temp"></p>
+                    </li>
+                    <!-- Добавьте остальные дни недели -->
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
